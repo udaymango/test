@@ -1,17 +1,6 @@
 <?php
 
-//
-//foreach (array('a','b','c') as $a) {
-//    echo "$a ";
-//    foreach (array('a','b','c') as $b) {
-//        echo "$b";
-//        if ($a == $b) { 
-//            break ;  // this will break both foreach loops
-//        }
-//    }
-//}
-//echo "done";
-//exit;
+
 if (isset($_SESSION['TESTdATA'])) {
         $newArr = $_SESSION['TESTdATA'];
         unset($_SESSION['TESTdATA']);
